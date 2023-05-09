@@ -13,3 +13,13 @@
 .navlink {
     color: white;
 }
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    padding-top: 50px;
+
+    background-color: aliceblue;
+}

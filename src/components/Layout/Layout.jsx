@@ -1,10 +1,11 @@
 import { Suspense } from "react";
 import { Outlet, NavLink } from "react-router-dom";
+import { Loader } from "components/Loader/Loader";
 import css from './Layout.module.css'
 
 const Layout = () => {
     return (
-        <main>
+        <>
             <header className={css.header}>
                 <nav className={css.nav}>
                     <NavLink to={'/cards'} style={{textDecoration: 'none'}}>
@@ -15,10 +16,12 @@ const Layout = () => {
                     </NavLink>
                 </nav>
             </header>
-            <Suspense fallback={'Shalala'}>
-                <Outlet />
-            </Suspense>
-        </main>
+            <main className={css.main}>
+                <Suspense fallback={<Loader />}>
+                    <Outlet />
+                </Suspense>
+            </main>
+        </>
     )
 }
 

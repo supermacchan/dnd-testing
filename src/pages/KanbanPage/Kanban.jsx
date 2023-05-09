@@ -34,11 +34,14 @@ const Kanban = () => {
     const dropHandler = (e, item, board) => {
         e.preventDefault();
 
+        e.target.style.boxShadow = 'none';
+        e.target.style.transform = 'scale(1)';
+
         const currentIndex = currentBoard.items.indexOf(currentItem);
         currentBoard.items.splice(currentIndex, 1);
 
         const dropIndex = board.items.indexOf(item);
-        board.items.splice(dropIndex + 1, 0, currentItem);
+        board.items.splice(dropIndex, 0, currentItem);
 
         setBoards(boards.map(b => {
             if (b.id === board.id) {
@@ -54,6 +57,10 @@ const Kanban = () => {
     }
 
     const dropCardHandler = (e, board) => {
+        if (e.target.className === `${css.item}`) {
+            return;
+        }
+
         board.items.push(currentItem);
 
         const currentIndex = currentBoard.items.indexOf(currentItem);

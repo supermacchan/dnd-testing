@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dnd-testing/static/css/main.57ca399e.css",
+    "main.css": "/dnd-testing/static/css/main.bb08e263.css",
     "main.js": "/dnd-testing/static/js/main.66f959e4.js",
     "static/css/376.a6526834.chunk.css": "/dnd-testing/static/css/376.a6526834.chunk.css",
     "static/js/376.d4d268d9.chunk.js": "/dnd-testing/static/js/376.d4d268d9.chunk.js",
     "static/css/462.20f81c0d.chunk.css": "/dnd-testing/static/css/462.20f81c0d.chunk.css",
     "static/js/462.d3cde09f.chunk.js": "/dnd-testing/static/js/462.d3cde09f.chunk.js",
     "index.html": "/dnd-testing/index.html",
-    "main.57ca399e.css.map": "/dnd-testing/static/css/main.57ca399e.css.map",
+    "main.bb08e263.css.map": "/dnd-testing/static/css/main.bb08e263.css.map",
     "main.66f959e4.js.map": "/dnd-testing/static/js/main.66f959e4.js.map",
     "376.a6526834.chunk.css.map": "/dnd-testing/static/css/376.a6526834.chunk.css.map",
     "376.d4d268d9.chunk.js.map": "/dnd-testing/static/js/376.d4d268d9.chunk.js.map",
@@ -15,7 +15,7 @@
     "462.d3cde09f.chunk.js.map": "/dnd-testing/static/js/462.d3cde09f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57ca399e.css",
+    "static/css/main.bb08e263.css",
     "static/js/main.66f959e4.js"
   ]
 }
